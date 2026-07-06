@@ -15,10 +15,11 @@ let matriz: number[][] = [
 console.log();
 
 for(let i: number = 0; i < 3; i++){
-    for(let j: number = 0; j < 3; j++){
-            console.log(matriz[i][j]);
+    let linha: string= "";
+        for(let j: number = 0; j < 3; j++){
+            linha += matriz[i][j] + " ";
     }
-    console.log();
+    console.log(linha);
 }
 console.log("\n")
 

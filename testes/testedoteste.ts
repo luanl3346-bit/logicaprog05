@@ -22,7 +22,8 @@ lista.push(4);
 console.log(lista);
 
 
-lista.sort((a, b) => a + b);
+lista.sorat((a, b) => a - b);
 
 console.log(lista);
+
 
